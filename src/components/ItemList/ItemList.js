@@ -2,7 +2,7 @@ import React from 'react'
 
 const ItemList = ({Items}) => {
   return (
-    <div className="grid grid-cols-5 items-top justify-center bg-indigo-50 p-3 h-screen w-screen">  
+    <div className=" h-full w-full grid grid-cols-4 items-top justify-center p-3  ">  
     {Items}
     </div>
 
