@@ -1,6 +1,6 @@
 import Item from './components/Item/Item.js'
-import ItemList from './components/ItemList/ItemList';
-import NavBar from './components/NavBar/NavBar';
+
+import Search from './Pages/Search.js';
 
 const arr = [
 <Item img="https://st2.depositphotos.com/1000165/5463/i/450/depositphotos_54636005-stock-photo-two-skateboards.jpg" nombre="pan" precio="132"/>,
@@ -12,11 +12,7 @@ const arr = [
 ]
 function App() {
   return (
-    <div className="flex flex-col h-screen w-full bg-indigo-50 justify-center ">
-        <NavBar/>
-
-         <ItemList Items= {arr }/>
-    </div>
+    <Search arr={arr}/>
   );
 }
 
