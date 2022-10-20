@@ -3,7 +3,7 @@ import Searcher from '../Searcher/Searcher'
 
 const NavBar = () => {
   return (
-    <div className="w-full flex flex-wrap justify-between items-center bg-cyan-600 p-4 pb-20 shadow-md overflow-hidden h-auto mb-4 ">
+    <div className="w-full flex flex-wrap justify-between items-center bg-cyan-600 pb-4 shadow-md overflow-hidden h-auto mb-4 ">
         <p className="ml-4 text-3xl">TechOnWheels</p>
 
     <Searcher/>
