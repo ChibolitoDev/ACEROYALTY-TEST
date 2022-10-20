@@ -1,20 +1,20 @@
 import './App.css';
+import Item from './components/Item/Item.js'
+import ItemList from './components/ItemList/ItemList';
 
+const arr = [
+<Item img="https://i.imgur.com/5dmBrx6.jpg" nombre="pan" precio="132"/>,
+<Item img="https://i.imgur.com/5dmBrx6.jpg" nombre="pan" precio="132"/>,
+<Item img="https://i.imgur.com/5dmBrx6.jpg" nombre="pan" precio="132"/>,
+<Item img="https://i.imgur.com/5dmBrx6.jpg" nombre="pan" precio="132"/>,
+<Item img="https://i.imgur.com/5dmBrx6.jpg" nombre="pan" precio="132"/>,
+<Item img="https://i.imgur.com/5dmBrx6.jpg" nombre="pan" precio="132"/>
+]
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ItemList Items= {arr }/>
       </header>
     </div>
   );
