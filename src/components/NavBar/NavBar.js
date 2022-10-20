@@ -7,7 +7,7 @@ const NavBar = () => {
         <p className="ml-4 text-3xl">TechOnWheels</p>
 
     <Searcher/>
-  <p className="ml-4 text-3xl">TechOnWheels</p>
+  <img className="ml-4 text-3xl h-16 w-auto" src="https://i.imgur.com/5dmBrx6.jpg" ></img>
 
     </div>
   )

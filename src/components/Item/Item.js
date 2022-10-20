@@ -1,8 +1,8 @@
 
 const Item = ({img, nombre, precio}) => {
   return (
-      <div className="max-w-xs max-h-max overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-100 hover:shadow-xl m-3 scale-90">
-        <img src={img} className="h-auto w-auto max-h-58 " ></img>
+      <div className="max-w-xs max-h-max overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-100 hover:shadow-xl m-3 scale-90 justif">
+        <img src={img} className="h-auto w-screen max-h-56 " ></img>
         <p className="text-center m-1 text-gray-700 text-3xl">{nombre}</p>
         <div className="p-1">
         <p className="text-3xl mb-3 text-center text-gray-700">S/ {precio}</p>          
