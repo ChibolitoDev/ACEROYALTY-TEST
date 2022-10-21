@@ -3,11 +3,16 @@ import Searcher from '../Searcher/Searcher'
 
 const NavBar = () => {
   return (
-    <div className="w-full flex flex-wrap justify-between items-center bg-cyan-600 pb-4 shadow-md overflow-hidden h-auto mb-4 ">
-        <p className="ml-4 text-3xl">TechOnWheels</p>
-
-    <Searcher/>
-  <img className="ml-4 text-3xl h-16 w-auto mt-3 rounded-3xl" src="https://i.imgur.com/5dmBrx6.jpg" ></img>
+    <div className="w-full flex flex-row justify-between items-center bg-cyan-600 pb-4 shadow-md overflow-hidden h-auto mb-4 ">
+      <div className='flex flex-row flex-1 justify-top pl-10'>
+        <div className=" justify-center h-1/3">
+          <p className="text-start text-4xl">Tech On Wheels</p>
+        </div>      
+      </div>
+       <Searcher/>
+      <div className="flex flex-row flex-1 justify-center h-full">
+        <img className="mr-4 text-3xl h-16 w-auto mt-3 rounded-3xl" src="https://i.imgur.com/5dmBrx6.jpg" ></img>
+      </div>
 
     </div>
   )
