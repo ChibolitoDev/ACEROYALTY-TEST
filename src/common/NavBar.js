@@ -1,5 +1,5 @@
 import React from 'react'
-import Searcher from '../Searcher/Searcher'
+import Searcher from './Searcher'
 
 const NavBar = () => {
   return (

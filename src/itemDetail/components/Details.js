@@ -1,7 +1,7 @@
-import React from 'react'
-import NavBar from '../../components/NavBar/NavBar';
-import ItemDetail from './../../components/ItemDetail/ItemDetail';
-import Buisness from './../../components/Buisness/Buisness';
+
+import NavBar from './../../common/NavBar';
+import ItemDetail from '../ItemDetail';
+import Buisness from './Buisness';
 
 const Details = ({img, nombre, precio}) => {
   return (

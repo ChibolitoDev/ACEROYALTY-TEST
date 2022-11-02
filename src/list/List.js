@@ -1,6 +1,7 @@
 import React from 'react'
-import ItemList from '../../components/ItemList/ItemList';
-import NavBar from '../../components/NavBar/NavBar';
+import NavBar from '../common/NavBar';
+import ItemList from './Components/ItemList';
+
 
  const Search = ({arr}) => {
     return (
