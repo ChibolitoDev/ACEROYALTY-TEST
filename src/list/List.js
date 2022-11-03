@@ -3,13 +3,17 @@ import NavBar from '../common/NavBar';
 import ItemList from './Components/ItemList';
 
 
- const Search = ({arr}) => {
+ const List = ({arr}) => {
     return (
-        <div className="flex flex-col h-full w-full bg-indigo-50 justify-center items-top">
-            <NavBar/>
-             <ItemList Items= {arr }/>
+        <div>
+          <div className="flex flex-col h-full w-full bg-indigo-50 justify-end items-start">
+          <NavBar/>
+          </div>
+            <div className="flex flex-col h-full w-full bg-indigo-50 justify-end items-start">
+           <ItemList Items= {arr }/>
+            </div>
         </div>
       );
 }
 
-export default Search
+export default List

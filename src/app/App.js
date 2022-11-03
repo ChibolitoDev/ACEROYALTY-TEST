@@ -1,6 +1,7 @@
 import Item from './../list/Components/Item';
 import Details from './../itemDetail/components/Details';
-import Search from './../list/List';
+import List from './../list/List';
+import Booking from '../booking/Booking';
 
 const arr = [
 <Item img="https://st2.depositphotos.com/1000165/5463/i/450/depositphotos_54636005-stock-photo-two-skateboards.jpg" nombre="pan" precio="132"/>,
@@ -12,8 +13,9 @@ const arr = [
 ]
 function App() {
   return (
-    <Search arr={arr}/>
+    //<List arr={arr}/>
     //<Details img="https://i.pinimg.com/564x/96/ca/a9/96caa961966c7c41329e31ab5fc58b9a.jpg" nombre="MOTOCICLETA HIDRAULICA" precio="132"/>
+    <Booking/>
   );
 }
 
