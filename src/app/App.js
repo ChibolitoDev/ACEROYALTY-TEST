@@ -11,11 +11,15 @@ const arr = [
 <Item img="https://i.pinimg.com/564x/3c/3f/87/3c3f87cd793adb5005e9d8ea7d3df9b2.jpg" nombre="pan" precio="132"/>,
 <Item img="https://i.pinimg.com/564x/80/37/fb/8037fb2d3e0cf616d27165fc6f00f15b.jpg" nombre="pan" precio="132"/>
 ]
+const item = {
+  nombre: "aaa",
+  img: "https://i.pinimg.com/564x/80/37/fb/8037fb2d3e0cf616d27165fc6f00f15b.jpg"
+}
 function App() {
   return (
     //<List arr={arr}/>
     //<Details img="https://i.pinimg.com/564x/96/ca/a9/96caa961966c7c41329e31ab5fc58b9a.jpg" nombre="MOTOCICLETA HIDRAULICA" precio="132"/>
-    <Booking/>
+    <Booking item={item}/>
   );
 }
 
