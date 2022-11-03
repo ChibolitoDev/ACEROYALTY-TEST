@@ -17,9 +17,9 @@ const item = {
 }
 function App() {
   return (
-    //<List arr={arr}/>
+    <List arr={arr}/>
     //<Details img="https://i.pinimg.com/564x/96/ca/a9/96caa961966c7c41329e31ab5fc58b9a.jpg" nombre="MOTOCICLETA HIDRAULICA" precio="132"/>
-    <Booking item={item}/>
+    //<Booking item={item}/>
   );
 }
 

@@ -9,9 +9,9 @@ import ItemList from './Components/ItemList';
           <div className="flex flex-col h-full w-full bg-indigo-50 justify-end items-start">
           <NavBar/>
           </div>
-            <div className="flex flex-col h-full w-full bg-indigo-50 justify-end items-start">
+          <div className="flex flex-col h-full w-full bg-indigo-50 justify-end items-start">
            <ItemList Items= {arr }/>
-            </div>
+           </div>
         </div>
       );
 }
