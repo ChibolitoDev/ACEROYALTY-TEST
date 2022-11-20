@@ -7,11 +7,11 @@ const Information = ({img,name}) => {
             <div className="flex flex-col flex-1 justify-top">
                 <img src={img} className="h-auto w-auto pl-3 rounded-3xl " ></img>
             </div>
-            <div className='flex flex-row flex-1 justify-center h-full p-8'>
-                <div className=" justify-center h-1/3 mb-10">
+            <div className='flex flex-col flex-1 justify-center h-full pl-4'>
+                <div className=" justify-center h-1/3 ">
                     <p className="text-start m-1 text-gray-700 text-6xl">{name}</p>
                 </div>
-                <div className=" h-1/3">
+                <div className=" h-1/3 mb-5">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
                 </div>
             </div> 

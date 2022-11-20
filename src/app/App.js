@@ -14,8 +14,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<ListPage/>} />
-        <Route path="/:id" element={<DetailedPage/>} />
-        <Route path="/pays" element={<BookingPage/>} />
+        <Route path="/:id" element={<DetailedPage />} />
+        <Route path="/payment" element={<BookingPage/>} />
       </Routes>
   </BrowserRouter>
   );
