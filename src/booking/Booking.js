@@ -3,7 +3,12 @@ import NavBar from '../common/NavBar'
 import Calendar from './components/Calendar'
 import Information from './components/Information'
 
-const Booking = ({item}) => {
+const item = {
+  name: "Bicicleta",
+  img:"https://i.pinimg.com/564x/96/ca/a9/96caa961966c7c41329e31ab5fc58b9a.jpg"
+}
+
+const Booking = ({id}) => {
   return (
     <div className="flex flex-col h-screen w-full bg-indigo-50 justify-start items-center">
       <NavBar/>
