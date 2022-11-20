@@ -34,4 +34,4 @@ const arr ={
                  precio: "120"
             }
         ]
-    }
+    };
