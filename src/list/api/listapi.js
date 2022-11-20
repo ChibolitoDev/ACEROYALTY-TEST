@@ -1,3 +1,4 @@
+const axios = require('axios').default;
 const arr ={
         list: [
             {
@@ -35,3 +36,11 @@ const arr ={
             }
         ]
     };
+    
+const GetList = async() =>{
+    const response = await axios.get('url');
+    return response == undefined? response: arr;
+} 
+
+    export default GetList
+    
