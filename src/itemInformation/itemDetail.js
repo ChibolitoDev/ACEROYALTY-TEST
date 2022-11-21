@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate  } from "react-router-dom";
 
-const ItemDetail = ({img, nombre, precio, id}) => {
+const ItemDetail = ({img, name, price, id, description}) => {
     const navigate = useNavigate();
 
     function handleClick() {
@@ -20,10 +20,10 @@ const ItemDetail = ({img, nombre, precio, id}) => {
 
             <div className='flex flex-col flex-1 justify-top h-full p-8'>
                 <div className=" justify-center h-1/3 mb-10">
-                    <p className="text-start m-1 text-gray-700 text-6xl">{nombre}</p>
+                    <p className="text-start m-1 text-gray-700 text-6xl">{name}</p>
                 </div>
                 <div className=" h-2/3">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
+                    <p>{description}</p>
                 </div>
                 
            </div>
@@ -31,7 +31,7 @@ const ItemDetail = ({img, nombre, precio, id}) => {
             <div className='flex flex-col flex-1 justify-center h-full p-8 gap-2'>
                 <div className=" justify-center h-1/3 ">
                     <p className="text-center m-1 text-gray-700 text-4xl">Cantidad: 10</p>
-                    <p className="text-center m-1 text-gray-700 text-4xl">Precio: S/{precio}</p>
+                    <p className="text-center m-1 text-gray-700 text-4xl">Precio: S/{price}</p>
 
                 </div>
  

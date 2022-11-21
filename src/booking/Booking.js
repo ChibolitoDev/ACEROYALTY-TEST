@@ -1,12 +1,9 @@
 import React from 'react'
-import NavBar from '../common/NavBar'
-import Calendar from './components/Calendar'
-import Information from './components/Information'
+import NavBar from '../common/navbar'
+import Calendar from './components/calendar'
+import Information from './components/information'
 
-const item = {
-  name: "Bicicleta",
-  img:"https://i.pinimg.com/564x/96/ca/a9/96caa961966c7c41329e31ab5fc58b9a.jpg"
-}
+
 
 const Booking = ({id}) => {
   return (
