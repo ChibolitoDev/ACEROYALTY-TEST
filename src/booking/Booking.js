@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../common/NavBar'
 import Calendar from './components/Calendar'
-import Information from './components/information'
+import Information from './components/Information'
 
 const item = {
   name: "Stkateboard pro max 3000",
