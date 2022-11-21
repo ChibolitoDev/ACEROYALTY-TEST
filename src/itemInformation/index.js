@@ -1,4 +1,4 @@
-import Details from './../itemDetail/components/Details';
+import Details from './components/details';
 
 import React from 'react'
 

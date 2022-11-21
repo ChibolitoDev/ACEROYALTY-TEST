@@ -1,11 +1,13 @@
 import React from 'react'
-import NavBar from '../common/navbar'
+import NavBar from '../common/navBar'
 import Calendar from './components/calendar'
 import Information from './components/information'
 
 
 
 const Booking = ({id}) => {
+
+  
   return (
     <div className="flex flex-col h-screen w-full bg-indigo-50 justify-start items-center">
       <NavBar/>

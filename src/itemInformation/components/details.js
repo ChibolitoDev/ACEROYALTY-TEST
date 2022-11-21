@@ -1,8 +1,7 @@
-
 import {useEffect, useState} from 'react'
-import NavBar from '../../common/NavBar';
-import ItemDetail from '../ItemDetail';
-import Buisness from './Buisness';
+import NavBar from '../../common/navBar';
+import ItemDetail from '../itemDetail';
+import Buisness from './buisness';
 import {GetItem, GetEnterprice} from '../api/itemDetailapi.js';
 
 

@@ -15,7 +15,7 @@ const item = {
 export const GetItem = async(id) =>{
     return item;
 } 
- export const GetEnterprice = async() =>{
+ export const GetEnterprice = async(id) =>{
   return enterprice;
 } 
     

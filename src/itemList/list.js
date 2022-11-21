@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../common/NavBar';
+import NavBar from '../common/navBar';
 import ItemList from './Components/ItemList';
 
 

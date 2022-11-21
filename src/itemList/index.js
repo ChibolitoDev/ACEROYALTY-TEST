@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import List from './List'
+import List from './list'
 import GetList from './api/listapi';
 
 const ListPage = () => {
