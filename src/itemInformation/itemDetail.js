@@ -13,7 +13,7 @@ const ItemDetail = ({img, name, price, id, description}) => {
     <div className="w-11/12 h-4/6 overflow-hidden rounded-xl bg-white shadow-lg m-4 justify-center ">
         <div className='flex flex-row items-center h-full'>
             <div className="flex flex-col flex-1 justify-center h-full">
-               <img src={img} className="h-auto w-auto pl-3 rounded-3xl " ></img>
+               <img alt="img" src={img} className="h-auto w-auto pl-3 rounded-3xl " ></img>
             </div>
 
             <div className='flex flex-col flex-1 justify-top h-full p-8'>
