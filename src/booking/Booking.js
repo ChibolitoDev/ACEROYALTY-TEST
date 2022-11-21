@@ -4,8 +4,8 @@ import Calendar from './components/Calendar'
 import Information from './components/information'
 
 const item = {
-  name: "Bicicleta",
-  img:"https://i.pinimg.com/564x/96/ca/a9/96caa961966c7c41329e31ab5fc58b9a.jpg"
+  name: "Stkateboard pro max 3000",
+  img:"https://st2.depositphotos.com/1000165/5463/i/450/depositphotos_54636005-stock-photo-two-skateboards.jpg "
 }
 
 const Booking = ({id}) => {
