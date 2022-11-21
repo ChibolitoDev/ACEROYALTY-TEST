@@ -5,7 +5,7 @@ const Information = ({img,name}) => {
     <div className='flex flex-col items-top h-full w-3/5 mt-26 ml-20'>
         <div className='flex flex-row '>
             <div className="flex flex-col flex-1 justify-top">
-                <img src={img} className="h-auto w-auto pl-3 rounded-3xl " ></img>
+                <img src={img} className="h-auto w-auto pl-3 rounded-3xl" alt='imagen'></img>
             </div>
             <div className='flex flex-col flex-1 justify-center h-full pl-4'>
                 <div className=" justify-center h-1/3 pb-10 ">

@@ -7,7 +7,7 @@ const ListPage = () => {
   const [data, setData] = useState([]);
     useEffect( ()=>{
     async function fetchMyAPI() {
-      await GetList().then(response => setData(response.list));
+      await GetList().then(response => setData(response.data));
     }
     fetchMyAPI();
   },[data])

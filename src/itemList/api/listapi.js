@@ -39,7 +39,9 @@ const arr ={
     };
     
 const GetList = async() =>{
-    return arr;
+    const data =await  axios.get('https://wheelmanagerhackdead.herokuapp.com/api/vehicles');
+    console.log(data)
+    return data;
 } 
 
  export default GetList
