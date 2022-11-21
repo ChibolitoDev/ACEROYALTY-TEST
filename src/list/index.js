@@ -2,10 +2,6 @@ import {useEffect, useState} from 'react'
 import List from './List'
 import GetList from './api/listapi';
 
-
-
-
-
 const ListPage = () => {
 
   const [data, setData] = useState([]);
