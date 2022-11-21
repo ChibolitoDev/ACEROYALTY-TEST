@@ -3,11 +3,9 @@ import { useNavigate  } from "react-router-dom";
 
 const ItemDetail = ({img, name, price, id, description}) => {
     const navigate = useNavigate();
-
     function handleClick() {
         navigate({
           pathname:"/payment/"+id,
-          id
         });
       }
 
