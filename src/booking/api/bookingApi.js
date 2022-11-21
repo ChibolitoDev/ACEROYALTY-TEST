@@ -6,12 +6,7 @@ const item = {
     id:1
   }
 
-  const enterprice = {
-    name: "YAMAHA HAHAHA",
-    sales: 12000,
-    stock: 300,
-    id:1
-  }
+
 export const GetItem = async(id) =>{
     return item;
 } 
