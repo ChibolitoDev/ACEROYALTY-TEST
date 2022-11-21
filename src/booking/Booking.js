@@ -1,12 +1,9 @@
 import React from 'react'
-import NavBar from '../common/NavBar'
-import Calendar from './components/Calendar'
-import Information from './components/Information'
+import NavBar from '../common/navbar'
+import Calendar from './components/calendar'
+import Information from './components/information'
 
-const item = {
-  name: "Stkateboard pro max 3000",
-  img:"https://st2.depositphotos.com/1000165/5463/i/450/depositphotos_54636005-stock-photo-two-skateboards.jpg "
-}
+
 
 const Booking = ({id}) => {
   return (

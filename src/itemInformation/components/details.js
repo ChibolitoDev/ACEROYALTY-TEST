@@ -1,9 +1,9 @@
 
 import {useEffect, useState} from 'react'
-import NavBar from './../../common/NavBar';
+import NavBar from '../../common/NavBar';
 import ItemDetail from '../ItemDetail';
 import Buisness from './Buisness';
-import {GetItem, GetEnterprice} from './../api/itemDetailapi.js';
+import {GetItem, GetEnterprice} from '../api/itemDetailapi.js';
 
 
 const Details = ({id}) => {

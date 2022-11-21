@@ -12,7 +12,7 @@ const item = {
     stock: 300,
     id:1
   }
-export const GetItem = async() =>{
+export const GetItem = async(id) =>{
     return item;
 } 
  export const GetEnterprice = async() =>{

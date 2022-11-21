@@ -1,6 +1,6 @@
 import React from 'react'
-import Filters from './Filters';
-import Item from './Item';
+import Filters from './filters';
+import Item from './item';
 
 
 
