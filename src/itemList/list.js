@@ -1,9 +1,6 @@
 import React from 'react'
 import NavBar from '../common/navBar';
-import ItemList from './Components/ItemList';
-
-
-
+import ItemList from './components/itemList';
 
  const List = ({data}) => {
     return (

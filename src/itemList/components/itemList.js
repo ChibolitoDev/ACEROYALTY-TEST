@@ -2,8 +2,6 @@ import React from 'react'
 import Filters from './filters';
 import Item from './item';
 
-
-
 const ItemList = ({data}) => {
   return (
     <div className=' h-full w-full flex p-4'>
