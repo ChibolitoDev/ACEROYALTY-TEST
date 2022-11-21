@@ -11,7 +11,7 @@ const Booking = () => {
   useEffect( ()=>{
     async function fetchMyAPI() {
       const id = window.location.pathname;
-      await GetItem(id.charAt(id.length-1)).then(response => setData(response));
+      await GetItem(id.charAt(id.length-1)).then(response => setData(response))
     }
     fetchMyAPI();
   },[])
