@@ -1,16 +1,12 @@
 import { useNavigate  } from "react-router-dom";
 
-
-
 const Item = ({img, name, price,id}) => {
-
   const navigate = useNavigate();
 
   function handleClick() {
     navigate({
-      pathname:"/"+id,
-      id
-    });
+      pathname:"/"+id
+    })
   }
 
   return (

@@ -3,8 +3,8 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import ListPage from '../list';
-import DetailedPage from '../itemDetail';
+import ListPage from '../itemList';
+import DetailedPage from '../itemInformation';
 import BookingPage from '../booking';
 
 
