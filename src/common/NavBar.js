@@ -11,7 +11,7 @@ const NavBar = () => {
       </div>
        <Searcher/>
       <div className="flex flex-row flex-1 justify-center h-full">
-        <img className="mr-4 text-3xl h-16 w-auto mt-3 rounded-3xl" src="https://i.imgur.com/5dmBrx6.jpg" ></img>
+        <img className="mr-4 text-3xl h-16 w-auto mt-3 rounded-3xl" src="https://i.imgur.com/5dmBrx6.jpg" alt='font'></img>
       </div>
 
     </div>

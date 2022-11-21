@@ -5,7 +5,7 @@ import Booking from './booking';
 
 const BookingPage = ({id}) => {
   return (
-    <Booking id={id}/>
+    <Booking />
   )
 }
 

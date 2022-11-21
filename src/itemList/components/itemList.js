@@ -10,7 +10,7 @@ const ItemList = ({data}) => {
       </div>
       <div className="h-full flex w-9/12 flex-wrap items-end justify-end mr-5">  
         {data.map(item => (
-          <Item key={item.id+item.name+item.price} id={item.id} img={item.img} name={item.name} price={item.price}  />
+          <Item key={item.imageUrl+item.vehicleName+item.id} id={item.id} img={item.imageUrl} name={item.vehicleName}   />
         ))}
       </div>
     </div>
